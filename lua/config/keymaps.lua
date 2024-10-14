@@ -3,3 +3,4 @@
 -- Add any additional keymaps here
 
 vim.keymap.set("n", "<leader>gt", ":GitBlameToggle<CR>", { desc = "toggle git blame" })
+vim.keymap.set("n", "<leader>go", ":GitBlameOpenCommitURL<CR>", { desc = "open commit URL" })
